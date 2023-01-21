@@ -5,29 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="dist/styles.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
-  <footer>
-    <p class="attribution">
+  <header class="header">
+    <div class ="header__logo">
+      <img src="images/logo.svg">
+    </div>
+  </header>
+  <section class="hero">
+    <picture clas="hero__picture">
+      <source srcset="images/hero-mobile.jpg" media="(max-width: 600px)">
+        <source srcset="images/hero-desktop.jpg" media="(min-width: 601px)">
+        <img src="images/hero-mobile.jpg" alt="Young lady">
+    </picture>
+  </section>
+  <main class="main">
+    <h1 class="main__title">
+      <div class="main__title--1">We're</div> 
+      <div class="main__title--2">coming soon</div>
+    </h1>
+    <p class="main__text">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+    </p>
+    <form class="main__input">
+      <div class="main__input-wrapper">
+        <input class="main__input--email" type="text" placeholder="Email Address">
+        <img src=images/icon-error.svg class="input__error">
+      </div>
+      <button class="input__button">
+        <img src="images/icon-arrow.svg" class="button__icon">
+      </button>
+    </form>
+    <div class="main__error">Plaese provide a valid email</div>
+  </main> 
+  <footer class="footer">
+    <p class="footer__text">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Magdalena Nolde</a>.
     </p>
   </footer>
+  <script src="app.js"></script>
 </body>
 </html>

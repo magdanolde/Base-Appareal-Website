@@ -1,0 +1,134 @@
+body {
+    font-family: $base-font-family;
+}
+
+.header {
+    height: 10vh;
+    @include flex;
+    .header__logo {
+        margin-left: 20px;
+    }
+}
+
+.hero {
+    text-align: center;
+    .hero__picture {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.main {
+    color: $font-color-alpha;
+    @include flex;
+    align-items: center;
+    .main__title {
+        text-transform: uppercase;
+        margin: 50px 0 30px 0;
+        width: 65%;
+        font-size: 3em;
+        text-align: center;
+        letter-spacing: 7px;
+        .main__title--1 {
+            font-weight: $font-weight-light;
+        }
+        .main__title--2 {
+            color: $font-color-gamma;
+            font-weight: $font-weight-medium;
+        }
+    }
+    .main__text {
+        margin-bottom: 30px;
+        width: 92%;
+        line-height: 35px;
+        text-align: center;
+        font-weight: $font-weight-medium;
+    }
+
+    .main__input {
+        display: flex;
+        position: relative;
+        margin-left: 35px;
+       
+        
+    
+        .main__input-wrapper {
+            border: 1px solid $font-color-alpha;
+            border-radius: 40px 0 0 40px;
+
+        
+            .main__input--email {
+                height: 40px;
+                margin: 5px 0 0 20px;
+                width: 290px;
+                background: $backgroud-color-alpha;
+            }
+
+            ::placeholder { 
+                color: $font-color-alpha;
+                font-size: 1.2em;
+                font-weight: $font-weight-medium;
+                font-family: $base-font-family;
+            }
+
+            .input__error {
+                display: none;
+            } 
+
+            .input__error--active {
+                position: relative;
+                right: 50px;
+                top: 5px;
+            }
+            
+        }
+
+        .input__button {
+            background: $backgroud-color-beta;
+            border: 1px solid $font-color-alpha;
+            border-radius: 40px 40px 40px 40px;
+            height: 50px;
+            width: 70px;
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            right: 40px;
+                &:hover {
+                    background: $font-color-alpha;
+                }
+        
+         
+            .button__icon {
+                height: 20px;
+                width: 15px;
+                background: transparent;
+
+            }
+        }
+    
+    }
+
+    .main__error--active {
+        color: $font-color-beta;
+        margin: 15px 180px 0 0;
+        font-size: 0.8em;
+    }
+
+    .main__error {
+        display:  none;
+        
+    }
+
+}
+
+.footer {
+    margin-top: 23%;
+    color: $font-color-gamma;
+    width: 90%;
+    .footer__text {
+    font-size: 0.7em;
+    text-align: center;
+    }
+}

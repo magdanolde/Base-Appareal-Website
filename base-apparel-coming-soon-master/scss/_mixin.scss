@@ -1,0 +1,20 @@
+
+@mixin mediaqueries($breakpoint) {
+   $size: map-get($breakpoints, $breakpoint);
+   @if($size) {
+      @media (#{$size}) {
+         @content;
+      }
+   } 
+}
+
+@mixin flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+
+
+
