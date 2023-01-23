@@ -17,10 +17,11 @@ Users should be able to:
  
  ###  SOLUTIONS APPLIED IN THE PROJECT
  
-* SASS - I was looking for project, where I can learn and practice it. That was my main goal. Hence, I tried to apply, as many new skills as possible:
+* SASS - I was looking for project, where I can learn and practice this pre-processor. That was my main goal. Hence, I tried to apply, as many new features as possible:
     @mixin (also for media queries)
     @include
     @import
+    map-get
     if statements 
 * RWD
 * JS - form validation
