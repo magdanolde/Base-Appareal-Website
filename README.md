@@ -2,7 +2,7 @@ Frontend Mentor - Base Apparel coming soon page
 
 ### :shell: PROJECT IN A NUTSHELL
 
-This is one of the front-end coding challenge from [Frontend Mentor](https://www.frontendmentor.io). The challenges help to improve coding skills by building realistic projects. The challenge is to build out this coming soon page and get it looking as close to the design as possible.
+This is one of the front-end coding challenges from [Frontend Mentor](https://www.frontendmentor.io). The challenges help to improve coding skills by building realistic projects. The challenge is to build out this coming soon page and get it looking as close to the design as possible.
 
 
 ### :unlock: FEATURES 
@@ -17,7 +17,7 @@ Users should be able to:
  
  ###  SOLUTIONS APPLIED IN THE PROJECT
  
-* SASS - I was looking for project, where I can learn and practice this pre-processor. That was my main goal. Hence, I tried to apply, as many new features as possible:
+* SASS - I was looking for a project, where I can learn and practice this pre-processor. That was my main goal. Hence, I tried to apply, as many new features as possible:
     @mixin (also for media queries)
     @include
     @import
