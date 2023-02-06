@@ -17,7 +17,7 @@ Users should be able to:
  
  ###  SOLUTIONS APPLIED IN THE PROJECT
  
-* SASS - I was looking for a project, where I can learn and practice this pre-processor. That was my main goal. Hence, I tried to apply, as many new features as possible:
+* SASS - I was looking for a project, where I can learn and practice this pre-processor. That was my main goal. Hence, I tried to apply as many new features as possible:
     @mixin (also for media queries)
     @include
     @import
