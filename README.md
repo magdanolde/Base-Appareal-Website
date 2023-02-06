@@ -24,7 +24,7 @@ Users should be able to:
     map-get
     if statements 
 * RWD
-* JS - form validation
+* JS - form validation/event listeners
 
 ### :boom: PROJECT LIVE 
 
